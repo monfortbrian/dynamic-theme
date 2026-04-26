@@ -13,7 +13,7 @@ interface SavedPreset {
 
 export function activate(context: vscode.ExtensionContext) {
   const disposable = vscode.commands.registerCommand(
-    'dynamic-theme.openThemeEngine',
+    'dynamic-theme-engine.openThemeEngine',
     () => {
       ThemeEnginePanel.createOrShow(context.extensionUri, context);
     },

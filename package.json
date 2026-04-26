@@ -1,5 +1,5 @@
 {
-  "name": "dynamic-theme",
+  "name": "dynamic-theme-engine",
   "displayName": "Dynamic Theme",
   "description": "Generate and apply VS Code themes instantly from your own color picks.",
   "version": "0.1.0",
@@ -32,13 +32,13 @@
     "customization"
   ],
   "activationEvents": [
-  "onCommand:dynamic-theme.openThemeEngine"
+  "onCommand:dynamic-theme-engine.openThemeEngine"
 ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "dynamic-theme.openThemeEngine",
+        "command": "dynamic-theme-engine.openThemeEngine",
         "title": "Dynamic Theme: Open Theme Engine"
       }
     ]
